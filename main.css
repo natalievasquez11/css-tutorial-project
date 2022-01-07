@@ -25,13 +25,72 @@ body {
 }
 
 .plan {
-    background: rgb(203, 156, 209);
+    background: rgb(201, 162, 206);
     text-align: center;
     padding: 16px;
     margin: 8px;
     display: inline-block;
     width: 30%;
     vertical-align: middle;
+    border-radius: 8px;
+}
+
+.plan--highlighted {
+    background: rgb(178, 68, 192);
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, .5);
+}
+
+.plan__fun {
+    background: white;
+    color: rgb(178, 68, 192);
+    padding: 8px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.plan__title {
+    color: rgb(48, 4, 54);
+}
+
+.plan__desc {
+    color: rgb(126, 126, 126);
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__desc {
+    color: rgb(48, 4, 54);
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    padding: 4px 0;
+}
+
+.button {
+    background:rgb(48, 4, 54);
+    color: white;
+    font: inherit;
+    border: 1px solid rgb(48, 4, 54);
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover,
+.button:active {
+    color:rgb(48, 4, 54);
+    background: white;
 }
 
 /* h1 {
