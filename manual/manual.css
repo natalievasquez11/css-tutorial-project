@@ -1,6 +1,6 @@
 .manual {
-  font-size: 20px;
-  margin: 48px 0;
+  font-size: 1.2em;
+  margin: 3rem 0;
 }
 
 .manual__list {
@@ -9,11 +9,12 @@
 }
 
 .manual:first-of-type {
-  margin-top: 96px;
+  margin-top: 6rem;
 }
 
 .manual__image-container {
   width: 65%;
+  min-width: 580px;
   display: inline-block;
   vertical-align: middle;
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
@@ -26,23 +27,24 @@
 
 .manual__info {
   text-align: right;
-  padding: 14px;
+  padding: 0.9rem;
   display: inline-block;
   vertical-align: middle;
   width: 30%;
 }
 
-#pug-2.testimonial {
+#pug-2.manual {
   text-align: right;
 }
 
-#pug-2 .testimonial__info {
+#pug-2.manual__info {
   text-align: left;
 }
 
 .manual__name {
-  margin: 3px;
+  margin: 0.2rem;
   color: #ff5454;
+  font-size: 2rem;
 }
 
 .manual__subtitle {
@@ -62,6 +64,6 @@
 }
 
 .manual__text {
-  margin: 3px;
+  margin: 0.2rem;
 }
 
