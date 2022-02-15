@@ -1,14 +1,9 @@
-.manual {
-  font-size: 1.2em;
+main {
+  padding-top: 2.5rem;
 }
 
-/* .manual__list {
-  width: 80%;
-  margin: auto;
-} */
-
-.manual:first-of-type {
-  margin-top: 6rem;
+.manual {
+  font-size: 1.2em;
 }
 
 .manual__image-container {
