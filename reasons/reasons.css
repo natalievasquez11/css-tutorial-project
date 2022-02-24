@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'AnonymousPro';
+  src: url("anonymousPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'AnonymousPro';
+  src: url("anonymousPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
 .background {
   background: url("../images/blueberries.jpg") center/cover;
   filter: grayscale(40%);
@@ -53,6 +64,8 @@ main {
     font-size: 1.2rem;
     color: rgb(48, 4, 54);
     background: white;
+    font-family: "AnonymousPro", sans-serif;
+    font-weight: 700;
   }
 
   .clearfix {
